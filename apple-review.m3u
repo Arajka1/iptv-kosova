@@ -1,16 +1,16 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Apple Review Test",Apple HLS Test 1
-http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8
-
-#EXTINF:-1 group-title="Apple Review Test",Apple HLS Test 2
+#EXTINF:-1 group-title="Apple Review Test",Apple BipBop
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 
-#EXTINF:-1 group-title="Playback Test",Apple HLS Test 3
-http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8
+#EXTINF:-1 group-title="Apple Review Test",Akamai Test 300
+https://dash.akamaized.net/akamai/test/hls/300.m3u8
 
-#EXTINF:-1 group-title="Playback Test",Apple HLS Test 4
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+#EXTINF:-1 group-title="Apple Review Test",Akamai Test 600
+https://dash.akamaized.net/akamai/test/hls/600k_first5.m3u8
 
-#EXTINF:-1 group-title="Playback Test",Apple HLS Test 5
-http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8
+#EXTINF:-1 group-title="Apple Review Test",Akamai Test 1800
+https://dash.akamaized.net/akamai/test/hls/1800k_first5.m3u8
+
+#EXTINF:-1 group-title="Apple Review Test",Akamai Muxed Test
+https://dash.akamaized.net/akamai/test/hls/muxed_600k_first5.m3u8
