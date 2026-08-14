@@ -1,13 +1,31 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Apple Review Test",Apple BipBop
+#EXTINF:-1 group-title="Sports",Sports Channel 1
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 
-#EXTINF:-1 group-title="Apple Review Test",Akamai Test 600
-https://dash.akamaized.net/akamai/test/hls/600k_first5.m3u8
+#EXTINF:-1 group-title="Sports",Sports Channel 2
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 
-#EXTINF:-1 group-title="Apple Review Test",Akamai Test 1800
-https://dash.akamaized.net/akamai/test/hls/1800k_first5.m3u8
+#EXTINF:-1 group-title="Sports",Sports Channel 3
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 
-#EXTINF:-1 group-title="Apple Review Test",Akamai Muxed Test
-https://dash.akamaized.net/akamai/test/hls/muxed_600k_first5.m3u8
+#EXTINF:-1 group-title="Education",Education Channel 1
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="Education",Education Channel 2
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="News",News Channel 1
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="News",News Channel 2
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="Movies",Movies Channel 1
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="Movies",Movies Channel 2
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
+
+#EXTINF:-1 group-title="Kids",Kids Channel 1
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
