@@ -1,34 +1,32 @@
 #EXTM3U
+# Generic HLS test playlist for App Review. No commercial TV channels are included.
+# Apple samples: https://developer.apple.com/streaming/examples/
+# iReplay test stream and attribution: https://ireplay.tv/blog/hls-streams-examples-streams-continuous-discontinuity-vod2live-test-video-players-app-websites/
+# Blender Open Movies: https://studio.blender.org/films/
 
-#EXTINF:-1 group-title="Apple Test Streams",Apple BipBop (Advanced fMP4)
+#EXTINF:-1 tvg-id="test.apple.fmp4" tvg-name="Adaptive fMP4 Test" group-title="HLS Test Streams",Adaptive fMP4 Test
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 group-title="Apple Test Streams",Apple BipBop (16x9 Aspect Ratio)
+#EXTINF:-1 tvg-id="test.apple.16x9" tvg-name="16:9 Aspect Test" group-title="Aspect Ratio Tests",16:9 Aspect Test
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
 
-#EXTINF:-1 group-title="Apple Test Streams",Apple BipBop (4x3 Aspect Ratio)
+#EXTINF:-1 tvg-id="test.apple.4x3" tvg-name="4:3 Aspect Test" group-title="Aspect Ratio Tests",4:3 Aspect Test
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
 
-#EXTINF:-1 group-title="Live TV",Blender Open Movies (Live 24/7)
-url?id=10
+#EXTINF:-1 tvg-id="test.ireplay.live" tvg-name="24/7 ABR Live Test" group-title="Live HLS Tests",24/7 ABR Live Test
+https://ireplay.tv/test/blender.m3u8
 
-#EXTINF:-1 group-title="Live TV",Blender HD (1080p Only)
+#EXTINF:-1 tvg-id="test.ireplay.hd" tvg-name="1080p Live Test" group-title="Live HLS Tests",1080p Live Test
 https://ireplay.tv/test/hd_blender.m3u8
 
-#EXTINF:-1 group-title="Live TV",Akamai Test Stream (Live)
+#EXTINF:-1 tvg-id="test.akamai.live" tvg-name="Sliding Window Live Test" group-title="Live HLS Tests",Sliding Window Live Test
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 
-#EXTINF:-1 group-title="Movies VOD",Sintel (Blender Foundation)
-https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8
-
-#EXTINF:-1 group-title="Movies VOD",Tears of Steel (Sci-Fi Short)
+#EXTINF:-1 tvg-id="test.blender.tears" tvg-name="Open Movie VOD Test" group-title="VOD HLS Tests",Open Movie VOD Test
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
-#EXTINF:-1 group-title="Sports VOD",Art of Motion (Parkour)
-https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8
-
-#EXTINF:-1 group-title="Kids VOD",Big Buck Bunny
+#EXTINF:-1 tvg-id="test.blender.bunny" tvg-name="Short VOD Test" group-title="VOD HLS Tests",Short VOD Test
 https://test-streams.mux.dev/test_001/stream.m3u8
 
-#EXTINF:-1 group-title="Radio",Audio Only Fallback (Radio Test)
+#EXTINF:-1 tvg-id="test.ireplay.audio" tvg-name="Audio Only HLS Test" group-title="Audio Tests",Audio Only HLS Test
 https://ireplay.tv/test/rate_0_28.m3u8
