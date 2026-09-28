@@ -1,31 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="Sports",Sports Channel 1
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=sports1
+#EXTINF:-1 group-title="Movies",Blender Open Movies (Live 24/7)
+https://ireplay.tv/test/blender.m3u8
 
-#EXTINF:-1 group-title="Sports",Sports Channel 2
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=sports2
+#EXTINF:-1 group-title="Movies",Big Buck Bunny (VOD)
+https://test-streams.mux.dev/test_001/stream.m3u8
 
-#EXTINF:-1 group-title="Sports",Sports Channel 3
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=sports3
+#EXTINF:-1 group-title="News",Blender HD (1080p Only)
+https://ireplay.tv/test/hd_blender.m3u8
 
-#EXTINF:-1 group-title="Education",Education Channel 1
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=education1
+#EXTINF:-1 group-title="Sports",Akamai Test Stream (Live)
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 
-#EXTINF:-1 group-title="Education",Education Channel 2
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=education2
+#EXTINF:-1 group-title="Education",Apple fMP4 Reference
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 
-#EXTINF:-1 group-title="News",News Channel 1
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=news1
+#EXTINF:-1 group-title="Kids",Mux Multi-Bitrate Test
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
 
-#EXTINF:-1 group-title="News",News Channel 2
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=news2
-
-#EXTINF:-1 group-title="Movies",Movies Channel 1
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=movies1
-
-#EXTINF:-1 group-title="Movies",Movies Channel 2
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=movies2
-
-#EXTINF:-1 group-title="Kids",Kids Channel 1
-https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8?review=kids1
+#EXTINF:-1 group-title="Radio",Audio Only Fallback
+https://ireplay.tv/test/rate_0_28.m3u8
